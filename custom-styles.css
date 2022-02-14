@@ -4,18 +4,18 @@
 
 #shame-message {
 	width:100vw;
-	height:150vh;
+	height:100vh;
 	padding:100px;
 	overflow:hidden;
 	background-color:black;
-	color: white;
+	color: Red;
 }
 
 button {
-	background-color:blue;
+	background-color:red;
 	padding:8px 10px;
 	border:none;
-	outline:gray;
+	outline:white;
 }
 
 #continue {
