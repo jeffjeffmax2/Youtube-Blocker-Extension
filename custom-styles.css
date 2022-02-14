@@ -8,18 +8,19 @@
 	padding:100px;
 	overflow:hidden;
 	background-color:black;
-	color: Red;
+	color: white;
+	text-align: center;
 }
 
 button {
-	background-color:red;
+	background-color:black;
 	padding:8px 10px;
 	border:none;
-	outline:white;
+	outline:black;
 }
 
 #continue {
-	color:gray !important;
+	color:black !important;
 	font-size:12px;
 	margin-top:16px;
 	cursor:pointer;
