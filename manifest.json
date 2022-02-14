@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "YouTube Blocker",
-  "description": "This extension halts users before they get to Disney+ to make sure they really wanna waste their time",
+  "description": "This extension halts users before they get to YouTube to make sure they really wanna waste their time",
   "version": "1.0",
   "icons": {
     "19": "img/ic-19px.png",
