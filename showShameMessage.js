@@ -2,7 +2,7 @@ insertShame();
 
 function insertShame() {
 	var page = document.querySelector('body');
-	page.insertAdjacentHTML('afterbegin', '<div id="shame-message"><h1>Max, you don\'t want to do this.</h1><h2>Think of all the productive things you could be doing instead of watching Netflix.</h2><button id="quit">You\'re right. Close Netflix so I can do something productive.</button><div id="continue">I\'ve been working really hard, so I\'m going to watch a show.</div></div>');
+	page.insertAdjacentHTML('afterbegin', '<div id="shame-message"><h1>Max, you don\'t want to do this.</h1><h2>Think of all the productive things you could be doing instead of watching Disney+.</h2><button id="quit">You\'re right. Close Disney+ so I can do something productive.</button><div id="continue">I\'ve been working really hard, so I\'m going to watch a show.</div></div>');
 }
 
 var closeTab = document.getElementById('quit');
