@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "YouTube Blocker",
-  "description": "This extension halts users before they get to YouTube to make sure they really wanna waste their time",
+  "name": "😈PowerSchool Blocker😈",
+  "description": "This extension Blocks PowerSchool",
   "version": "1.0",
   "icons": {
     "19": "img/ic-19px.png",
@@ -15,7 +15,7 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "https://www.youtube.com/*"
+    "https://westmarkschool.learning.powerschool.com/*"
   ],
   "background": {
     "scripts": ["buttonFunction.js"],
@@ -23,7 +23,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
+      "matches": ["https://westmarkschool.learning.powerschool.com/*"],
       "css": ["custom-styles.css"],
       "js": ["showShameMessage.js"],
       "run_at": "document_end"
